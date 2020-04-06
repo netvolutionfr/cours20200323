@@ -11,10 +11,14 @@
 <body>
 <div class="container">
     <h1>Rechercher une ville</h1>
-    <form action="resultat-ville.php" method="get">
+    <form action="resultat-ville.php" method="post">
         <div class="form-group">
             <label for="ville">Ville</label>
             <input type="text" class="form-control" id="ville" name="ville">
+        </div>
+        <div class="form-group">
+            <label for="motdepasse">Mot de passe</label>
+            <input type="password" class="form-control" id="motdepasse" name="motdepasse">
         </div>
         <button type="submit" class="btn btn-primary">Rechercher</button>
     </form>
